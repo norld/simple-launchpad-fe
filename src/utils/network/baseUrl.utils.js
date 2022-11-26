@@ -1,4 +1,4 @@
-const API_BASE_URL_DEV = "https://app.grymore.xyz"; // or use localhost:3737
+const API_BASE_URL_DEV = process.env.REACT_APP_API_URL; // or use localhost:3737
 
 const ENDPOINT = {
   launchpad: "/api/launchpads",
