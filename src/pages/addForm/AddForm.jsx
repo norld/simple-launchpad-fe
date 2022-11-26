@@ -134,15 +134,13 @@ function AddForm(props) {
       );
       const headerPost = {
         headers: {
-          Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY4ODgxNzMwLCJleHAiOjE2NzE0NzM3MzB9.m3SiBB6cX-cAJTQoOsfqNMqm-xGqgX-B9e6U7hY7pUg",
+          Authorization: "Bearer " + process.env.REACT_APP_BEARER_TOKEN,
         },
       };
 
       const headerUpload = {
         headers: {
-          Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjY4OTQzNjE4LCJleHAiOjE2OTQ4NjM2MTh9.A02FMLkQYsO99SHLEJUvaLMyglXXjka7-FXQ0yF_WzU",
+          Authorization: "Bearer " + process.env.REACT_APP_BEARER_TOKEN,
         },
       };
 
